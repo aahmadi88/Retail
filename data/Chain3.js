@@ -1,0 +1,30 @@
+chain3={
+"type": "FeatureCollection",
+"name": "Chain3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Chain": "Haft", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.552182538259501, 35.740876735506014, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "C", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.555230833859909, 35.737098662129746, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "C", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.549970870281314, 35.741053521963281, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "C", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.54743975998786, 35.733222899492894, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "C", "rank": 1 }, "geometry": { "type": "Point", "coordinates": [ 51.540858189851114, 35.742326193543327, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "C", "rank": 1 }, "geometry": { "type": "Point", "coordinates": [ 51.539371845927469, 35.733737031271247, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "V1", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.565773674725882, 35.744062962875539, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "O.K", "rank": 1 }, "geometry": { "type": "Point", "coordinates": [ 51.544065806530959, 35.733008483481058, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "O.K", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.551423333761512, 35.73501508181667, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "O.K", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.541724775139414, 35.737718415685457, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "O.K", "rank": 1 }, "geometry": { "type": "Point", "coordinates": [ 51.53447872559417, 35.742846389209788, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "V1", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.536009167127126, 35.734308770887907, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "V1", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.550748337780767, 35.74079537347059, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "V1", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.535867214244838, 35.742729705723185, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "O.K", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.558324996886071, 35.738391678353743, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "O.K", "rank": 3 }, "geometry": { "type": "Point", "coordinates": [ 51.543704134552598, 35.746505486026606, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "O.K", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.537278136084652, 35.734185822826156, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "Refah", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.552014795389368, 35.73527178222789, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "WM", "rank": 2 }, "geometry": { "type": "Point", "coordinates": [ 51.544461397843328, 35.746434089170535, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "WM", "rank": 3 }, "geometry": { "type": "Point", "coordinates": [ 51.563576298885202, 35.742838577805614, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "Refah", "rank": 1 }, "geometry": { "type": "Point", "coordinates": [ 51.529572649710396, 35.73432338566483, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "DM", "rank": 1 }, "geometry": { "type": "Point", "coordinates": [ 51.557391577639102, 35.738180817020471, 0.0 ] } },
+{ "type": "Feature", "properties": { "Chain": "DM", "rank": 1 }, "geometry": { "type": "Point", "coordinates": [ 51.53710679261043, 35.749474526092484, 0.0 ] } }
+]
+}
