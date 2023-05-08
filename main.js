@@ -181,7 +181,7 @@ var overlayerMap ={
     قدرت_خرید:geojson,
  فروشگاه_های_زنجیره_ای_Rank:chainMap,
    فروشگاه_محلی:grocery,
-   Segment:blkjson,
+   "Sale_Segment":blkjson,
 
 };
 
