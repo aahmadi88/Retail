@@ -143,7 +143,7 @@ function showPopUp(feature,layer){
 }
  
 var chainIcon = L.icon({
-    iconUrl: 'chain5.png',
+    iconUrl: 'data/chain5.png',
     iconSize:     [25, 30], // size of the icon
     //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
