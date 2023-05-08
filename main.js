@@ -158,13 +158,22 @@ var chainMap= L.geoJSON(chain3,{
     });   
 
  
+var geojsonMarkerOptions = {
+    radius: 6,
+    fillColor: "#0000FF",
+    //color: "#0000FF",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.2
+};
 var grocery = L.geoJSON(grocery,{
 
     //onEachFeature:showPopUp,
-    poinToLayer : function (feature,latlng){
-        return L.marker(latlng);
+    pointToLayer : function (feature,latlng){
+        return L.circleMarker(latlng, geojsonMarkerOptions);
     }
     });  
+ 
 
 
 
