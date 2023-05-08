@@ -142,11 +142,18 @@ function showPopUp(feature,layer){
 
 }
  
-var chainMap= L.geoJSON(chain3,{
+var chainIcon = L.icon({
+    iconUrl: 'chain5.png',
+    iconSize:     [25, 30], // size of the icon
+    //iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
 
+
+var chainMap= L.geoJSON(chain3,{
     onEachFeature:showPopUp,
-    poinToLayer : function (feature,latlng){
-        return L.marker(latlng);
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon:chainIcon});
     }
     });   
 
