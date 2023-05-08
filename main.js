@@ -178,9 +178,9 @@ var grocery = L.geoJSON(grocery,{
 
 
 var overlayerMap ={
-    قدرت_خرید:geojson,
- فروشگاه_های_زنجیره_ای_Rank:chainMap,
-   فروشگاه_محلی:grocery,
+    " قدرت خرید":geojson,
+ "فروشگاه های زنجیره ای":chainMap,
+   "فروشگاه محلی":grocery,
    "Sale_Segment":blkjson,
 
 };
