@@ -173,6 +173,8 @@ var grocery = L.geoJSON(grocery,{
         return L.circleMarker(latlng, geojsonMarkerOptions);
     }
     });  
+var B400= L.geoJSON(B400);  
+
  
 
 
@@ -182,7 +184,7 @@ var overlayerMap ={
  "فروشگاه های زنجیره ای":chainMap,
    "فروشگاه محلی":grocery,
    "Sale_Segment":blkjson,
-
+    "بلوک های با دسترسی مشترک در شعاع 400 متری":B400,
 };
 
 
